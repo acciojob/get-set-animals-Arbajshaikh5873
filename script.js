@@ -7,22 +7,22 @@ class Animal {
 		
 	}
 
-	get function getSpecies (){
+	get  getSpecies (){
 
 		return this.species;
 		
 	}
 
-	function makeSound () {
+	 makeSound () {
 
-		console.log("The " + this.species + " makes a sound");
+		console.log(`The ${this.species} makes a sound`);
 		
 	}
 }
 
 class Dog extends Animal {
 
-	function bark () {
+	 bark () {
 
 		console.log("woof");
 		
@@ -31,7 +31,7 @@ class Dog extends Animal {
 
 class Cat extends Animal {
 
-	function purr () {
+	 purr () {
 
 		console.log("purr");
 		
